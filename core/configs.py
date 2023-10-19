@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     """
     
     API_V1_STR: str = '/api/v1'
-    DB_URL: str = "postgresql+asyncpg://postgres:123@localhost:5432/postgres"
+    DB_URL: str = "postgresql://postgres:cujIUJEb0Tkyp2eCzSgh@containers-us-west-181.railway.app:7037/railway"
     DBBaseModel = declarative_base()
     
     JWT_SECRET: str = 'xLgeXKD02H1ksxBJMyC5csII-eU-g58R9EyIP0N67nw'
